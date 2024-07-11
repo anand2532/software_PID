@@ -19,7 +19,7 @@
 #define SAMPLE_TIME_S 0.01f
 
 /* Maximum run-time of simulation */
-#define SIMULATION_TIME_MAX 4.0f
+#define SIMULATION_TIME_MAX 20.0f
 
 /* Simulated dynamical system (first order) */
 float TestSystem_Update(float inp);
@@ -50,7 +50,6 @@ int main()
         printf("%f\t%f\t%f\r\n", t, measurement, pid.out);
 
     }
-
     return 0;
 }
 
