@@ -1,7 +1,20 @@
-# Ignore all .class file
-.o
-.out
-.exe
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
 
-
+# Ignore the specific binary name (assuming it's named pid_test)
 p
+
+# Ignore any files without extension (likely binaries)
+*
+!*.*
+!*/
+
+# Don't ignore Makefile
+!Makefile
+
+# Ignore common editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
