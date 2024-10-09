@@ -1,2 +1,2 @@
-build/
-!build.xml
+# Ignore all .class file
+*.class
