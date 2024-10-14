@@ -68,6 +68,3 @@ Possible enhancements to this project could include:
 3. Incorporating more complex process models
 4. Implementing auto-tuning algorithms for PID parameters
 
-## License
-
-This project is open source and available under the MIT License.
