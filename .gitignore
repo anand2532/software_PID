@@ -1,20 +1,15 @@
-# Ignore compiled binaries
+# Ignore compiled objects and executables
 *.o
-*.out
-*.exe
+pid_controller
 
-# Ignore the specific binary name (assuming it's named pid_test)
-p
+# Ignore output files
+*.csv
 
-# Ignore any files without extension (likely binaries)
-*
-!*.*
-!*/
-
-# Don't ignore Makefile
-!Makefile
-
-# Ignore common editor and OS files
-.vscode/
+# Ignore system-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore editor-specific files
+*.swp
+.vscode/
+.idea/
