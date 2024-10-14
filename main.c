@@ -21,7 +21,8 @@ int main() {
     int num_steps = 1000;        // Number of simulation steps
     
     // Print CSV header
-    printf("Time(s),Temperature(°C),Heater Power(%)\n");
+    // printf("Time(s),Temperature(°C),Heater Power(%)\n");
+    printf("Time(s),Temperature(°C),Heater Power(%%)\n");  // Note the escaped %%
     
     // Run simulation
     for (int i = 0; i < num_steps; i++) {
